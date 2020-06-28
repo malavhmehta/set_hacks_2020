@@ -4,6 +4,8 @@ import {useLocation} from "react-router-dom";
 import {HashLink} from "react-router-hash-link";
 
 import {nav} from "../../data";
+import logo from "../../images/logo/logo.png";
+import logoAlt from "../../images/logo/logo-alt.png";
 
 export const Navigation = () => {
   const [collapsed, setCollapsed] = useState(true);
@@ -18,7 +20,9 @@ export const Navigation = () => {
     <nav className={"navigation fixed-top" + (location.pathname !== "/SET-Hacks/" ? " alt" : "")}>
       <div className="container p-0">
         <Navbar light expand={"lg"}>
-          <HashLink to="/SET-Hacks/" onClick={scrollToTop} className="brand mr-auto">SET.Hacks()</HashLink>
+          <HashLink to="/SET-Hacks/" onClick={scrollToTop} className="brand navbar-brand mr-auto">
+            <img src={(location.pathname !== "/SET-Hacks/" ? logoAlt : logo)} height="50" width="auto" alt="SET Hacks Logo"/>
+          </HashLink>
           <NavbarToggler onClick={toggleNavbar} className="mr-2"/>
           <Collapse isOpen={!collapsed} navbar>
             <Nav navbar className="ml-auto">

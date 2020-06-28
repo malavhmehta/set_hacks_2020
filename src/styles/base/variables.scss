@@ -30,12 +30,12 @@ $bg-color: #fff;
 $text-color: #1a143c;
 $divider-color: #dfdfdf;
 
-//$surface-color: #fbfafc;
-$surface-color: #fafaff;
+$surface-color: #fbfafc;
+//$surface-color: #fafaff;
 $surface-hover-color: darken($surface-color, 2%);
 
-//$accent-color: #73568e;
-$accent-color: #5243aa;
+$accent-color: #73568e;
+//$accent-color: #5243aa;
 $accent-hover-color: darken($accent-color, 7.5%);
 $accent-active-color: darken($accent-color, 15%);
 
