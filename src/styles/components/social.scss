@@ -1,0 +1,69 @@
+/* Social Icons
+ * =============== */
+
+.social-container {
+  -webkit-appearance: none;
+  text-decoration: none;
+  transition: $transition;
+  width: 100%;
+
+  .social {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    transition: $transition;
+
+    .icon {
+      align-items: center;
+      background-color: $surface-color;
+      border-radius: 2px;
+      display: flex;
+      height: 4rem;
+      justify-content: center;
+      margin: 0 1rem 0 0;
+      width: 4rem;
+      transition: $transition;
+    }
+
+    .label {
+      align-items: flex-start;
+      color: $text-color;
+      display: flex;
+      font-family: $font-sans;
+      flex-direction: column;
+      justify-content: flex-start;
+
+      p {
+        margin: 0;
+        text-decoration: none !important;
+        font-size: $link-size;
+      }
+
+      p.platform {
+        font-weight: 500;
+      }
+    }
+  }
+
+  &:hover {
+    text-decoration: none !important;
+
+    .social {
+      .icon {
+        background-color: $surface-hover-color;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .social {
+    margin-bottom: 1.25rem;
+
+    &.last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}

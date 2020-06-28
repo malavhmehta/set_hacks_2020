@@ -1,0 +1,53 @@
+/* Hero
+ * =============== */
+
+#hero {
+  background-color: $surface-color;
+  margin: 0 !important;
+  padding: 8rem 0 12.5rem;
+
+  h1 {
+    color: $text-color;
+    font-family: $font-sans;
+    font-size: $h1-size;
+    font-weight: 600;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+
+    span {
+      color: $accent-color;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #hero {
+    padding: 8rem 0 15rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #hero {
+    h1 {
+      font-size: $h1-size * .8;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #hero {
+    padding: 8rem 0 13.5rem;
+    h1 {
+      font-size: $h1-size * .675;
+    }
+  }
+}
+
+@media screen and (max-width: 368px) {
+  #hero {
+    h1 {
+      font-size: $h1-size * .625;
+    }
+  }
+}

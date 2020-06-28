@@ -1,0 +1,99 @@
+/* Scaffolding
+ * =============== */
+
+body {
+  overflow-x: hidden !important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: $text-color;
+  font-family: $font-sans;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: $h2-size;
+  margin: 0 0 2.4rem 0 !important;
+
+  &:first-of-type {
+    margin-top: 1.5rem;
+  }
+}
+
+h3 {
+  font-size: $h3-size;
+  margin: 1rem 0 2rem;
+}
+
+p {
+  color: $text-color;
+  font-family: $font-sans;
+  font-size: $text-size;
+  font-weight: 400;
+  line-height: 1.65;
+  margin: 0 0 2.4rem 0;
+}
+
+a.inline-link {
+  color: $accent-color !important;
+}
+
+span.accent {
+  color: $accent-color;
+}
+
+hr {
+  background-color: rgba($divider-color, 0.25);
+  border: none;
+  height: 0.2em;
+  margin: 7.25rem 0;
+}
+
+.faq {
+  padding-bottom: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: $h2-size * .8;
+  }
+
+  h3 {
+    font-size: $h3-size * .8;
+  }
+
+  p {
+    font-size: $text-size * .85;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  h2 {
+    font-size: $h2-size * .75;
+  }
+
+  h3 {
+    font-size: $h3-size * .8;
+  }
+
+  p {
+    font-size: $text-size * .875
+  }
+}
+
+@media screen and (max-width: 368px) {
+  h2 {
+    font-size: $h2-size * .675;
+  }
+
+  h3 {
+    font-size: $h3-size * .7;
+  }
+
+  p {
+    font-size: $text-size * .675;
+  }
+}

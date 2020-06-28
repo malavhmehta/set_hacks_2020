@@ -1,0 +1,123 @@
+/* Contact
+ * =============== */
+
+.contact-gradient {
+  background-image: linear-gradient($bg-color, $surface-color);
+  padding: 4rem 0;
+}
+
+.contact-header {
+  background-color: $accent-color;
+  padding: 10rem 0;
+
+  h1 {
+    color: #fff;
+    font-family: $font-sans;
+    font-size: $h1-size;
+    font-weight: 500;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+input:focus ~ .floating-label,
+input:not(:focus):valid ~ .floating-label {
+  top: 10px;
+  left: 15px;
+  font-size: $text-size * .6;
+  opacity: 1;
+}
+
+.floating-label {
+  color: $text-color;
+  font-family: $font-sans;
+  font-size: $text-size;
+  font-weight: 400;
+  left: 15px;
+  top: 33px;
+  position: absolute;
+  pointer-events: none;
+  transition: 0.2s ease all;
+}
+
+.input-text,
+.input-textarea {
+  background-color: transparent !important;
+  border: 0;
+  border-radius: 0 !important;
+  border-bottom: 0.1rem solid $text-color;
+  color: $text-color;
+  font-family: $font-sans;
+  font-size: $text-size;
+  font-weight: 400;
+  margin: 1rem 0 2rem;
+  padding: 1.25rem 0 0.9rem;
+  resize: none;
+  transition: $transition;
+  width: 100%;
+
+  &:hover,
+  &:active,
+  &:focus {
+    &::placeholder {
+      color: rgba($text-color, .65);
+    }
+  }
+
+  &::placeholder {
+    color: $text-color;
+    font-family: $font-sans;
+    font-size: $text-size;
+    font-weight: 400;
+    transition: $transition;
+  }
+
+  &:focus {
+    outline: none !important;
+  }
+}
+
+.submit-button {
+  border: 0 !important;
+  padding: 1.35rem 3.5rem 1.25rem !important;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-header h1 {
+    font-size: $h1-size * .8;
+  }
+
+  .input-text,
+  .input-textarea,
+  .input-textarea::placeholder,
+  .floating-label {
+    font-size: $text-size * .8;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .contact-header h1 {
+    font-size: $h1-size * .675;
+  }
+
+  .input-text,
+  .input-textarea,
+  .input-textarea::placeholder,
+  .floating-label {
+    font-size: $text-size * .675;
+  }
+}
+
+@media screen and (max-width: 368px) {
+  .contact-header h1 {
+    font-size: $h1-size * .625;
+  }
+
+  .input-text,
+  .input-textarea,
+  .input-textarea::placeholder,
+  .floating-label {
+    font-size: $text-size * .625;
+  }
+}

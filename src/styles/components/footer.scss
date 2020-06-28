@@ -1,0 +1,17 @@
+/* Footer
+ * =============== */
+
+p.footer-content {
+  color: $accent-color;
+  font-family: $font-sans;
+  font-size: $link-size;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  transform: translateY(-2.2rem);
+
+  &.alt {
+    transform: none;
+    padding: 2.2rem 0;
+  }
+}

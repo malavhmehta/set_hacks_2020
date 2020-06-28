@@ -1,0 +1,31 @@
+/* Main
+ * =============== */
+
+#main {
+  background-image: linear-gradient($bg-color, $surface-color);
+  transform: translateY(-5rem);
+}
+
+@media screen and (max-width: 991px) {
+  #main {
+    transform: translateY(-18.5rem);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #main {
+    transform: translateY(-16rem);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #main {
+    transform: translateY(-14rem);
+  }
+}
+
+@media screen and (max-width: 381px) {
+  #main {
+    transform: translateY(-12rem);
+  }
+}

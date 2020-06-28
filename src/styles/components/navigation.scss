@@ -1,0 +1,62 @@
+/* Navigation
+ * =============== */
+
+nav.navigation {
+  background-color: $surface-color;
+  border: none;
+  margin: 0;
+  padding: 12px 0 7px;
+  //position: fixed;
+  //z-index: 11;
+
+  .brand {
+    color: $accent-color;
+    font-family: $font-sans;
+    font-size: 2.9 * $base-size;
+    font-weight: 500;
+    text-decoration: none;
+    transition: $transition;
+    padding-top: .19rem;
+
+    &:hover,
+    &:active {
+      color: $accent-hover-color;
+    }
+  }
+
+  .link {
+    color: $text-color !important;
+    font-family: $font-sans;
+    font-size: $link-size;
+    margin: .19rem 15px 0 0;
+    text-decoration: none;
+    transition: $transition;
+
+    &:hover,
+    &:active {
+      opacity: 0.75;
+    }
+  }
+
+  &.alt {
+    background-color: $accent-color;
+
+    .brand {
+      color: #fff !important;
+    }
+
+    .link {
+      color: #fff !important;
+    }
+
+    .button {
+      background-color: #fff;
+      border: none;
+      border-radius: 0;
+    }
+  }
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../../images/icons/bars.svg");
+}
