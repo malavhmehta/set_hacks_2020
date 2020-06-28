@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "56560b5d883ad17a08b8bb049a8a860e",
+    "revision": "1c09fea7f88dab68814ff9fa06f95104",
     "url": "/SET-Hacks/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SET-Hacks/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "c21da3b42f25c08b5f5c",
+    "revision": "ff49a8e3ceb3e1b42550",
     "url": "/SET-Hacks/static/css/main.82bed772.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SET-Hacks/static/js/2.4119211f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c21da3b42f25c08b5f5c",
-    "url": "/SET-Hacks/static/js/main.7db28ebe.chunk.js"
+    "revision": "ff49a8e3ceb3e1b42550",
+    "url": "/SET-Hacks/static/js/main.6b53a448.chunk.js"
   },
   {
     "revision": "efa05479b469123f82d6",
