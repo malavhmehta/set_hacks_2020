@@ -8,7 +8,7 @@ export const Footer = () => {
     <footer className="container">
       <div className="row">
         <div className="col-12 d-flex justify-content-center">
-          <p className={"footer-content" + (location.pathname !== "/" ? " alt" : "")}>
+          <p className={"footer-content" + (location.pathname !== "/SET-Hacks/" ? " alt" : "")}>
           SET.Hacks() &copy; 2020
             </p>
         </div>

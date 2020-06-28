@@ -10,11 +10,15 @@ export const Navigation = () => {
   const toggleNavbar = () => setCollapsed(!collapsed);
   let location = useLocation();
 
+  const scrollToTop = () => {
+    document.getElementById("top").scrollIntoView();
+  }
+
   return (
-    <nav className={"navigation fixed-top" + (location.pathname !== "/" ? " alt" : "")}>
+    <nav className={"navigation fixed-top" + (location.pathname !== "/SET-Hacks/" ? " alt" : "")}>
       <div className="container p-0">
         <Navbar light expand={"lg"}>
-          <HashLink to="/#top" className="brand mr-auto">SET.Hacks()</HashLink>
+          <HashLink to="/SET-Hacks/" onClick={scrollToTop} className="brand mr-auto">SET.Hacks()</HashLink>
           <NavbarToggler onClick={toggleNavbar} className="mr-2"/>
           <Collapse isOpen={!collapsed} navbar>
             <Nav navbar className="ml-auto">
@@ -29,7 +33,7 @@ export const Navigation = () => {
                 <NavLink
                     href="https://docs.google.com/forms/d/e/1FAIpQLScympeV459hUZBsdHdKGLD48_QO2w2C0wg0MiEReZwVaUKfow/viewform"
                     className="button"
-                    style={(location.pathname !== "/" ? {color: "#5243aa"} : {color: "#fff"})}>
+                    style={(location.pathname !== "/SET-Hacks/" ? {color: "#5243aa"} : {color: "#fff"})}>
                   Register
                 </NavLink>
               </NavItem>

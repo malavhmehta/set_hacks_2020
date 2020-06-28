@@ -11,8 +11,8 @@ export const App = () => (
       <Navigation/>
       <div id="top"/>
       <Switch>
-        <Route path="/" component={Main} exact/>
-        <Route path="/contact" component={Contact} exact/>
+        <Route path="/SET-Hacks/" component={Main} exact/>
+        <Route path="/SET-Hacks/contact" component={Contact} exact/>
       </Switch>
       <Footer/>
     </Router>

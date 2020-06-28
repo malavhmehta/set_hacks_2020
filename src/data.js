@@ -2,23 +2,23 @@ module.exports = {
   nav: [
     {
       name: "About",
-      target: "/#about"
+      target: "/SET-Hacks/#about"
     },
     {
       name: "Challenges",
-      target: "/#challenges"
+      target: "/SET-Hacks/#challenges"
     },
     {
       name: "Sponsors",
-      target: "/#sponsors"
+      target: "/SET-Hacks/#sponsors"
     },
     {
       name: "FAQ",
-      target: "/#faq"
+      target: "/SET-Hacks/#faq"
     },
     {
       name: "Contact Us",
-      target: "/contact"
+      target: "/SET-Hacks/contact"
     }
   ],
   date: "Jul 17, 2020 20:00:00",
