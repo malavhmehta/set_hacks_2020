@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7489bbe35d15e38da388f6260a9a815a",
+    "revision": "97ed4778f9c3240c625cad4f1ada6dec",
     "url": "/SET-Hacks/index.html"
   },
   {
-    "revision": "121f7a112cb9de6f1fcb",
+    "revision": "9104dbc50c5de6e266b1",
     "url": "/SET-Hacks/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "809ef7a17f30f11d602a",
-    "url": "/SET-Hacks/static/css/main.3e777bab.chunk.css"
+    "revision": "0859192bac834d804e10",
+    "url": "/SET-Hacks/static/css/main.252adc11.chunk.css"
   },
   {
-    "revision": "121f7a112cb9de6f1fcb",
-    "url": "/SET-Hacks/static/js/2.4119211f.chunk.js"
+    "revision": "9104dbc50c5de6e266b1",
+    "url": "/SET-Hacks/static/js/2.49a015bb.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/SET-Hacks/static/js/2.4119211f.chunk.js.LICENSE.txt"
+    "url": "/SET-Hacks/static/js/2.49a015bb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "809ef7a17f30f11d602a",
-    "url": "/SET-Hacks/static/js/main.6b53a448.chunk.js"
+    "revision": "0859192bac834d804e10",
+    "url": "/SET-Hacks/static/js/main.b6e36009.chunk.js"
   },
   {
     "revision": "efa05479b469123f82d6",
@@ -118,6 +118,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a264f71e3cb926a65746b158289102ac",
     "url": "/SET-Hacks/static/media/linode.a264f71e.png"
+  },
+  {
+    "revision": "d8d391388d5d5dc5e49910f5a99ba959",
+    "url": "/SET-Hacks/static/media/logo-alt.d8d39138.png"
+  },
+  {
+    "revision": "71f206e315e460b88cdeb8ad80f9d998",
+    "url": "/SET-Hacks/static/media/logo.71f206e3.png"
   },
   {
     "revision": "149e145995cb7d1b751c2e9c8ef021bd",

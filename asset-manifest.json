@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/SET-Hacks/static/css/main.3e777bab.chunk.css",
-    "main.js": "/SET-Hacks/static/js/main.6b53a448.chunk.js",
-    "main.js.map": "/SET-Hacks/static/js/main.6b53a448.chunk.js.map",
+    "main.css": "/SET-Hacks/static/css/main.252adc11.chunk.css",
+    "main.js": "/SET-Hacks/static/js/main.b6e36009.chunk.js",
+    "main.js.map": "/SET-Hacks/static/js/main.b6e36009.chunk.js.map",
     "runtime-main.js": "/SET-Hacks/static/js/runtime-main.5135618b.js",
     "runtime-main.js.map": "/SET-Hacks/static/js/runtime-main.5135618b.js.map",
     "static/css/2.af3c1da9.chunk.css": "/SET-Hacks/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.4119211f.chunk.js": "/SET-Hacks/static/js/2.4119211f.chunk.js",
-    "static/js/2.4119211f.chunk.js.map": "/SET-Hacks/static/js/2.4119211f.chunk.js.map",
+    "static/js/2.49a015bb.chunk.js": "/SET-Hacks/static/js/2.49a015bb.chunk.js",
+    "static/js/2.49a015bb.chunk.js.map": "/SET-Hacks/static/js/2.49a015bb.chunk.js.map",
     "index.html": "/SET-Hacks/index.html",
-    "precache-manifest.c9f6ef8a80c919744e93de0fe31acad6.js": "/SET-Hacks/precache-manifest.c9f6ef8a80c919744e93de0fe31acad6.js",
+    "precache-manifest.0cd103e43e4ba4b1892462e4e99d2b45.js": "/SET-Hacks/precache-manifest.0cd103e43e4ba4b1892462e4e99d2b45.js",
     "service-worker.js": "/SET-Hacks/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/SET-Hacks/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.3e777bab.chunk.css.map": "/SET-Hacks/static/css/main.3e777bab.chunk.css.map",
-    "static/js/2.4119211f.chunk.js.LICENSE.txt": "/SET-Hacks/static/js/2.4119211f.chunk.js.LICENSE.txt",
+    "static/css/main.252adc11.chunk.css.map": "/SET-Hacks/static/css/main.252adc11.chunk.css.map",
+    "static/js/2.49a015bb.chunk.js.LICENSE.txt": "/SET-Hacks/static/js/2.49a015bb.chunk.js.LICENSE.txt",
     "static/media/01.png": "/SET-Hacks/static/media/01.a5de5f5b.png",
     "static/media/02.png": "/SET-Hacks/static/media/02.06ab3f40.png",
     "static/media/03.png": "/SET-Hacks/static/media/03.1cebfd41.png",
@@ -37,6 +37,8 @@
     "static/media/bugsee.png": "/SET-Hacks/static/media/bugsee.be6f6adf.png",
     "static/media/echoar.png": "/SET-Hacks/static/media/echoar.e6617a4a.png",
     "static/media/linode.png": "/SET-Hacks/static/media/linode.a264f71e.png",
+    "static/media/logo-alt.png": "/SET-Hacks/static/media/logo-alt.d8d39138.png",
+    "static/media/logo.png": "/SET-Hacks/static/media/logo.71f206e3.png",
     "static/media/replit.png": "/SET-Hacks/static/media/replit.149e1459.png",
     "static/media/tohacks.png": "/SET-Hacks/static/media/tohacks.c63fc696.png",
     "static/media/wolframlanguage.png": "/SET-Hacks/static/media/wolframlanguage.a47ff262.png"
@@ -44,8 +46,8 @@
   "entrypoints": [
     "static/js/runtime-main.5135618b.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.4119211f.chunk.js",
-    "static/css/main.3e777bab.chunk.css",
-    "static/js/main.6b53a448.chunk.js"
+    "static/js/2.49a015bb.chunk.js",
+    "static/css/main.252adc11.chunk.css",
+    "static/js/main.b6e36009.chunk.js"
   ]
 }
