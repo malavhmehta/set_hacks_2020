@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a981be13c73bcdfc0d724e4ae6447c49",
+    "revision": "b72c9442c8d5c60563fd25251584d553",
     "url": "/malav-mehta.github.io/SET-Hacks/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/malav-mehta.github.io/SET-Hacks/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "9175eba2affa706b74f9",
+    "revision": "8b4ebf4235b3ff1d0a86",
     "url": "/malav-mehta.github.io/SET-Hacks/static/css/main.3b92c83e.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/malav-mehta.github.io/SET-Hacks/static/js/2.49a015bb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9175eba2affa706b74f9",
-    "url": "/malav-mehta.github.io/SET-Hacks/static/js/main.2ea99a9d.chunk.js"
+    "revision": "8b4ebf4235b3ff1d0a86",
+    "url": "/malav-mehta.github.io/SET-Hacks/static/js/main.b26a6e8e.chunk.js"
   },
   {
     "revision": "74c48170fababc646828",
