@@ -1,4 +1,4 @@
-# set-hacks-2020
+# set_hacks_2020
 
 ## About
 
